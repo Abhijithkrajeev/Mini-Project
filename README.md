@@ -1,7 +1,7 @@
 # Mini-Project
 
 NOTES User documentation:
-/*:
+
   - Students as user_
       Activate the NOTES extension in browser while watching the video. Or if you are using our web application provide the link of the video, and click generate option. NOTES will extract the audio from the video and convert into text and brief it using our ML model and provide the brief document. User can download and use it.
   - Teachers as user_
