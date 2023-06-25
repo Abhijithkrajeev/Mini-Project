@@ -7,8 +7,16 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: "Sneha C",
       home: Scaffold(
-        body: SafeArea(
-          child: StackWidget(),
+        body: Container(
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage('assets/bg_img.jpg'),
+              fit: BoxFit.cover,
+            ),
+          ),
+          child: SafeArea(
+            child: StackWidget(),
+          ),
         ),
       ),
     );
